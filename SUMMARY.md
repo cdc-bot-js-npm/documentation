@@ -2,9 +2,9 @@
 
 * [About cdc-bot.js](README.md)
 
-## Version 0.0.0
+## Version 1.0.0
 
-* [Changelog](version-0.0.0/changelog.md)
+* [Changelog](version-1.0.0/changelog.md)
 
 ## Guides
 
