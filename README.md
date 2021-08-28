@@ -17,5 +17,3 @@ The package isn't released yet and the page is not complete yet!
 Join our community & support server: [discord.gg/developing](https://discord.gg/developing)
 {% endhint %}
 
-![](https://github.com/cdc-bot-js-npm/documentation/tree/ab5e8ea930044124131fed916c8012816f176583/.gitbook/assets/banner-cdc2.png)
-
