@@ -4,17 +4,19 @@
 
 ## Version 0.0.0
 
----
-
-* [Changelog](changelog.md)
+* [Changelog](version-0.0.0/changelog.md)
 
 ## Guides
 
-* [Beginner Guide](guides/begin.md)
+* [Beginner Guide](guides/beginner-guide.md)
 * [Client Events](guides/client-events.md)
+* [Command Handler](guides/command-handler.md)
 
 ## Command Types
 
+* [channelCreateCommand](command-types/channelcreatecommand.md)
+* [channelDeleteCommand](command-types/channeldeletecommand.md)
+* [channelUpdateCommand](command-types/channelupdatecommand.md)
 * [guildBanAddCommand](command-types/guildbanaddcommand.md)
 * [guildBanRemoveCommand](command-types/guildbanremovecommand.md)
 * [guildCreateCommand](command-types/guildcreatecommand.md)
@@ -23,16 +25,19 @@
 * [guildMemberAddCommand](command-types/guildmemberaddcommand.md)
 * [guildMemberRemoveCommand](command-types/guildmemberremovecommand.md)
 * [guildMemberUpdateCommand](command-types/guildmemberupdatecommand.md)
-* [messageCommand](command-types/message-command.md)
-* [nonPrefixedCommand](command-types/non-prefixed-command.md)
-* [prefixedCommand](command-types/command.md)
-* [readyCommand](command-types/ready-command.md)
+* [messageCommand](command-types/messagecommand.md)
+* [nonPrefixedCommand](command-types/nonprefixedcommand.md)
+* [prefixedCommand](command-types/prefixedcommand.md)
+* [presenceUpdateCommand](command-types/presenceupdatecommand.md)
+* [rateLimitCommand](command-types/ratelimitcommand.md)
+* [readyCommand](command-types/readycommand.md)
+* [userUpdateCommand](command-types/userupdatecommand.md)
 
 ## Functions
 
-* [$channel](functions/channel.md)
-* [$emoji](functions/emoji.md)
-* [$user](functions/user.md)
+* [$channel](functions/usdchannel.md)
+* [$emoji](functions/usdemoji.md)
+* [$user](functions/usduser.md)
 
 ## About us
 

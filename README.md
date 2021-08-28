@@ -7,11 +7,15 @@ description: >-
 
 # About cdc-bot.js
 
-Welcome to the official website of cdc-bot.js!
+**Welcome to the official documentation website of cdc-bot.js!**
 
-{% hint style="success" %}
-Join our community & support server: [discord.gg/bot-coding](https://discord.gg/bot-coding)
+{% hint style="warning" %}
+The package isn't released yet and the page is not complete yet! 
 {% endhint %}
 
-![](.gitbook/assets/banner-cdc2.png)
+{% hint style="success" %}
+Join our community & support server: [discord.gg/developing](https://discord.gg/developing)
+{% endhint %}
+
+![](https://github.com/cdc-bot-js-npm/documentation/tree/ab5e8ea930044124131fed916c8012816f176583/.gitbook/assets/banner-cdc2.png)
 
