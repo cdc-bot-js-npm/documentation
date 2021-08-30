@@ -4,7 +4,9 @@
 
 ## Version 1.0.0
 
-* [Changelog](version-1.0.0/changelog.md)
+---
+
+* [Changelog](changelog.md)
 
 ## Guides
 
@@ -44,7 +46,7 @@
 * [Team](about-us/team.md)
 * [Contributors](about-us/contributors.md)
 * [Our Discord-Server](about-us/our-discord-server.md)
-* [The Tools-Bot](about-us/the-tools-bot.md)
+* [Our Tools-Bot](about-us/tools-bot.md)
 * [Partners](about-us/partners.md)
 
 ---
