@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Welcome!](README.md)
+* [About cdc-bot.js](about-cdc-bot.js.md)
 
 ## Version 1.0.0
 
-* [About cdc-bot.js](version-1.0.0/about-cdc-bot.js.md)
 * [Changelog](version-1.0.0/changelog.md)
 
 ## Guides
@@ -12,6 +12,7 @@
 * [Beginner Guide](guides/beginner-guide.md)
 * [Client Events](guides/client-events.md)
 * [Command Handler](guides/command-handler.md)
+* [Invite tracking](guides/invite-tracking.md)
 
 ## Command Types
 
