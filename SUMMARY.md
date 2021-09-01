@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome!](README.md)
 
 ## Version 1.0.0
 
@@ -18,6 +18,9 @@
 * [channelCreateCommand](command-types/channelcreatecommand.md)
 * [channelDeleteCommand](command-types/channeldeletecommand.md)
 * [channelUpdateCommand](command-types/channelupdatecommand.md)
+* [emojiCreateCommand](command-types/emojicreatecommand.md)
+* [emojiDeleteCommand](command-types/emojideletecommand.md)
+* [emojiUpdateCommand](command-types/emojiupdatecommand.md)
 * [guildBanAddCommand](command-types/guildbanaddcommand.md)
 * [guildBanRemoveCommand](command-types/guildbanremovecommand.md)
 * [guildCreateCommand](command-types/guildcreatecommand.md)
