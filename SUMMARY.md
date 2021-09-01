@@ -1,12 +1,11 @@
 # Table of contents
 
-* [About cdc-bot.js](README.md)
+* [Welcome](README.md)
 
 ## Version 1.0.0
 
----
-
-* [Changelog](changelog.md)
+* [About cdc-bot.js](version-1.0.0/about-cdc-bot.js.md)
+* [Changelog](version-1.0.0/changelog.md)
 
 ## Guides
 
