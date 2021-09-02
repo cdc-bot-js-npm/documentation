@@ -29,9 +29,7 @@ cdc-bot.js is an easy to learn package that makes it possible for you to code yo
 
 We use functions that make all imaginable uses for your Discord\* bots possible. &lt;/br&gt;
 
-The package is open source that allows anyone to contribute to the package development. Together we can!   
-  
-
+The package is open source that allows anyone to contribute to the package development. Together we can! 
 
 ## Installation
 
