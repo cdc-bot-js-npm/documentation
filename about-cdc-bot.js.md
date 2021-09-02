@@ -9,7 +9,7 @@ description: >-
 
 [![Discord](https://img.shields.io/discord/845696357406998588?color=blue&label=Discord&logo=discord&logoColor=white)](https://discord.gg/djcSRFPPaN)
 
-### Table Of Contents:
+## Table Of Contents
 
 * About cdc-bot.js
 * How to install
@@ -23,7 +23,7 @@ description: >-
 * Links
 * Contributing
 
-### About our package:
+## About our package
 
 cdc-bot.js is an easy to learn package that makes it possible for you to code your own advanced Discord bots fast and uncomplicated.
 
@@ -33,7 +33,7 @@ The package is open source that allows anyone to contribute to the package devel
   
 
 
-### Installation:
+## Installation
 
 **Node.JS version 12.0.0 or higher is required!**
 
@@ -41,9 +41,9 @@ The package is open source that allows anyone to contribute to the package devel
 npm install cdc-bot.js
 ```
 
-### Examples:
+## Examples
 
-#### Bot Setup:
+### Bot Setup
 
 ```javascript
 const cdc = require('cdc-bot.js')
@@ -58,7 +58,7 @@ const client = new cdc.Bot({
 })
 ```
 
-#### Bot Presence:
+### Bot Presence
 
 This is the activity presence the bot's user profile will show in it's profile and in the members list. You can set up as many presences as you like but timeout \(until bot reloads the presence/ changes to next presence\) must be higher than 12 seconds \(Discord Rate Limit\)
 
@@ -80,7 +80,7 @@ client.presence({
 })
 ```
 
-#### Bot Variables:
+### Bot Variables
 
 **What are variables?**
 
@@ -95,7 +95,7 @@ bot.variables({
 })
 ```
 
-#### Discord API Events
+### Discord API Events
 
 **What are these events?**
 
@@ -116,7 +116,7 @@ bot.guildMemberCreateCommand({
 })
 ```
 
-### More Features:
+### More Features
 
 #### Discord Interactions & Application Commands:
 
@@ -151,7 +151,7 @@ $interactionReply[You clicked the on the menu and selected the option $interacti
 })
 ```
 
-More Information in our [Documentation](https://cdc-bot.dutchman-dev.com/guide/application-commands)
+More Information in our [documentation](https://cdc-bot.dutchman-dev.com/guide/application-commands) page.
 
 ### Links
 
@@ -167,5 +167,7 @@ cdc-bot.js was made by [The Dutchman\#0001](https://discordapp.com/users/7046770
 
 You want to help us with developing the package? You can contibute to the package's development. Read [Contributing](https://github.com/cdc-bot-js-npm/cdc-bot.js/blob/main/.github/CONTRIBUTING.md) for more information.
 
-* We're not affiliated with Discord.
+
+
+`*`We're not affiliated with Discord.
 

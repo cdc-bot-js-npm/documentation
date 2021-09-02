@@ -6,3 +6,7 @@ description: >-
 
 # rateLimitCommand
 
+{% hint style="warning" %}
+ These commands need the [`onRateLimit`](../guides/client-events.md) event to be anabled to work.
+{% endhint %}
+
