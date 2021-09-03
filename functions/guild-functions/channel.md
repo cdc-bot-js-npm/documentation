@@ -162,6 +162,12 @@ This function has two optional fields:
       <td style="text-align:left">all</td>
     </tr>
     <tr>
+      <td style="text-align:left"><code>mention</code>
+      </td>
+      <td style="text-align:left">The mention of the channel.</td>
+      <td style="text-align:left">all</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><code>name</code>
       </td>
       <td style="text-align:left">The name of the guild channel.</td>
