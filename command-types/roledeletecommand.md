@@ -1,3 +1,9 @@
+---
+description: >-
+  A command that will be executed whenever a guild role is deleted if the
+  onRoleDelete event is enabled.
+---
+
 # roleDeleteCommand
 
 {% hint style="warning" %}

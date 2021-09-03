@@ -9,7 +9,7 @@ description: >-
 ## How to install cdc-bot.js?
 
 {% hint style="warning" %}
-**Node.JS** version **12.0.0** or newer is required to use the package!
+**Node.JS** version **12.0.0** or higher is required to use the package!
 {% endhint %}
 
 #### Terminal:
@@ -153,17 +153,17 @@ client.presence({
 
 The package currently has the following options for the client setup:
 
-| Option | Description | Default setting |
-| :--- | :--- | :--- |
-| `token` | The client's token to login in Discord. | none |
-| `prefix` | String or array of prefixes. Used for `prefixedCommands`. | `!` |
-| `mobileLogin` | Whether to login the bot via mobile presence or not. | `false` |
-| `memberMinAge` | Amount of seconds a joined member must be older as to not count as a fake invite. Used for the invite tracking system. | `86400` |
-| `events` | The object of events for the client, needed for special command types functionality. | `onMessageCreate: true` |
-| `respondToBots` | Whether to respond to bot users or to ignore them. | `true` |
-| `respondToWebhooks` | Whether to respond to bot webhook messages or to ignore them. | `false` |
-| `respondToDMs` | Whether to respond to bot users or to ignore them. | `true` |
-| `executeCmdOnUpdate` | Whether to execute commands with message updates if the new content matches a command name. | `false` |
+| Option | Description | required | Default setting |
+| :---: | :---: | :---: | :---: |
+| `token` | The client's token to login in Discord. | true | none |
+| `prefix` | String or array of prefixes. Used for `prefixedCommands`. | false | `!` |
+| `mobileLogin` | Whether to login the bot via mobile presence or not. | false | `false` |
+| `memberMinAge` | Amount of seconds a joined member must be older as to not count as a fake invite. Used for the invite tracking system. | false | `86400` |
+| `events` | The object of events for the client, needed for special command types functionality. | false | `onMessageCreate: true` |
+| `respondToBots` | Whether to respond to bot users or to ignore them. | false | `true` |
+| `respondToWebhooks` | Whether to respond to bot webhook messages or to ignore them. | false | `false` |
+| `respondToDMs` | Whether to respond to bot users or to ignore them. | false | `true` |
+| `executeCmdOnUpdate` | Whether to execute commands with message updates if the new content matches a command name. | false | `false` |
 
 {% code title="index.js" %}
 ```javascript

@@ -1,3 +1,9 @@
+---
+description: >-
+  A command that will be executed whenever a guild role is updated if the
+  onRoleUpdate event is enabled.
+---
+
 # roleUpdateCommand
 
 {% hint style="warning" %}
