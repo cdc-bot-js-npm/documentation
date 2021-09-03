@@ -136,16 +136,16 @@ Timeout must be `12` seconds or higher, otherwise your bot will be rate limited 
 ```javascript
 client.presence({
     status: "online",
-    name: "with $client[guild_count] servers", // Text to be shown
-    type: "STREAMING", // PLAYING, COMPETING, WATCHING, LISTENING, STREAMING
-    timeout: 12, // length in seconds before changing the presence again (must be 12 or higher)
-    url: "https://twitch.tv/discord_dutchman" // Twitch-Channel-URL or YouTube-Video-URL if type is STREAMING
-})
+    name: "with $client[guild_count] servers",
+    type: "STREAMING",
+    timeout: 12,
+    url: "https://twitch.tv/discord_dutchman" 
+    })
 client.presence({
-    status: "online", // online, idle, dnd, invisible
-    name: "with $client[guild_count] servers", // Text to be shown
-    type: "PLAYING", // PLAYING, COMPETING, WATCHING, LISTENING, STREAMING
-    timeout: 12, // timeout in seconds
+    status: "online",
+    name: "with $client[guild_count] servers",
+    type: "PLAYING",
+    timeout: 12,
 })
 ```
 
