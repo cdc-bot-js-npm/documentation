@@ -303,5 +303,6 @@ The given channel's name is: $channel[name;851026126524645416] and it'S ID is $c
 * `text`
 * `news`
 * `voice`
+* `store`
 * `category`
 
