@@ -57,5 +57,50 @@ This function returns the new discord channel data registred, its used in the [`
       </td>
       <td style="text-align:left">The ID of the last message sent here (if any).</td>
     </tr>
+        <tr>
+      <td style="text-align:left"><code>last_pin_timestamp</code>
+      </td>
+      <td style="text-align:left">The timestamp of the last channel pin in the text channel, if any.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>type</code>
+      </td>
+      <td style="text-align:left">The type of this channel.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>nsfw</code>
+      </td>
+      <td style="text-align:left">Whether the channel is nsfw or not.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>slowmode</code>
+      </td>
+      <td style="text-align:left">The slow mode duration of this channel.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>raw_position</code>
+      </td>
+      <td style="text-align:left">The raw position of this channel.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>deleted</code>
+      </td>
+      <td style="text-align:left">Wheter the channel was deleted or not.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>text</code>
+      </td>
+      <td style="text-align:left">Wheter this channel is text channel or not.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>viewable</code>
+      </td>
+      <td style="text-align:left">Wheter the channel was be seen by the bot or not.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>ismanageable</code>
+      </td>
+      <td style="text-align:left">Wheter the bot can or not manage the channel.</td>
+    </tr>
   </tbody>
 </table>
