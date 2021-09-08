@@ -11,6 +11,6 @@ The package isn't released yet and the page is not completed!
 {% endhint %}
 
 {% hint style="success" %}
-Join our community & support server: [discord.gg/developing](https://discord.gg/developing)
+Join our community & support server: [click here](https://discord.gg/HmtpbraCnk)
 {% endhint %}
 
