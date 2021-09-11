@@ -98,9 +98,34 @@ This function returns the new discord channel data registred, its used in the [`
       <td style="text-align:left">Wheter the channel was be seen by the bot or not.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>ismanageable</code>
+      <td style="text-align:left"><code>manageable</code>
       </td>
       <td style="text-align:left">Wheter the bot can or not manage the channel.</td>
+    </tr>
+     <tr>
+      <td style="text-align:left"><code>deleteable</code>
+      </td>
+      <td style="text-align:left">Wheter the channel can be deleted by the bot or not.</td>
+    </tr>
+     <tr>
+      <td style="text-align:left"><code>bitrate</code>
+      </td>
+      <td style="text-align:left">The bitrate of the voice channel, if channel is a voice channel.</td>
+    </tr>
+         <tr>
+      <td style="text-align:left"><code>user_limit</code>
+      </td>
+      <td style="text-align:left">The user limit of the voice channel, if channel is a voice channel.</td>
+    </tr>
+        <tr>
+      <td style="text-align:left"><code>full</code>
+      </td>
+      <td style="text-align:left">Whether the voice channel is full, if channel is a voice channel.</td>
+    </tr>
+         <tr>
+      <td style="text-align:left"><code>created_timestamp</code>
+      </td>
+      <td style="text-align:left">The timestamp of the channel creation.</td>
     </tr>
   </tbody>
 </table>
