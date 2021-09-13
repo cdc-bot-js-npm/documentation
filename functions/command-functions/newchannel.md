@@ -5,7 +5,7 @@ description: >-
 
 # $newChannel
 
-This function returns the new discord channel data registred, its used in the [`onChannelUpdate`](https://github.com/cdc-bot-js-npm/documentation/blob/main/guides/client-events.md) event.
+This function returns the new discord channel data registred, its used in the [`onChannelUpdate/onChannelCreate`](https://github.com/cdc-bot-js-npm/documentation/blob/main/guides/client-events.md) events.
 
 ## Usage
 
