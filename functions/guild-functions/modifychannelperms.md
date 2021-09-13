@@ -17,8 +17,6 @@ Modifies the permissions of a user or a role in a guild channel the bot has acce
 
 ## Example Commands
 
-Description of the example command here with colons at the end
-
 ```javascript
 client.command({
 name: "perms",
