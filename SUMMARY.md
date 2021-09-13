@@ -78,7 +78,7 @@
 
 ---
 
-* [Join Support-Server](https://discord.com/invite/developing)
+* [Join Support-Server](https://discord.com/invite/HmtpbraCnk)
 * [Invite Discord-Bot](https://discord.com/api/oauth2/authorize?client_id=799747541926281237&permissions=388161&scope=bot%20applications.commands)
 * [Open NPM page](https://www.npmjs.com/package/cdc-bot.js)
 * [Open GitHub page](https://github.com/cdc-bot-js-npm/cdc-bot.js)

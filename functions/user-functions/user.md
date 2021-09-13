@@ -1,6 +1,7 @@
 ---
 description: >-
-  A compact function with multiple options to return data about the given Discord User.
+  A compact function with multiple options to return data about the given
+  Discord User.
 ---
 
 # $user
@@ -36,3 +37,4 @@ $user[discriminator;$message[1]]
 `
 });
 ```
+
