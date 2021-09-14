@@ -20,7 +20,7 @@ If you don't provide any data in the function, it will return the current channe
 This function has two optional fields:
 
 1. `option` =&gt; the option you want to get of the channel.
-2. `channelID` =&gt; the ID of the channel you want to get the date of, default is the current channel's ID.
+2. `channelID` =&gt; the ID of the channel you want to get the data of, default is the current channel's ID.
 
 ### **Options**
 

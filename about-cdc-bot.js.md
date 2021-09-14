@@ -114,7 +114,7 @@ bot.guildMemberCreateCommand({
 })
 ```
 
-### More Features
+## More Features
 
 #### Discord Interactions & Application Commands:
 
@@ -151,7 +151,7 @@ $interactionReply[You clicked the on the menu and selected the option $interacti
 
 More Information in our [documentation](https://cdc-bot.dutchman-dev.com/guide/application-commands) page.
 
-### Links
+## Links
 
 cdc-bot.js was made by [The Dutchman\#0001](https://discordapp.com/users/704677071929999390).
 
@@ -161,7 +161,7 @@ cdc-bot.js was made by [The Dutchman\#0001](https://discordapp.com/users/7046770
 * [GitHub Repository](https://github.com/cdc-bot-js-npm/cdc-bot.js)
 * [Documentation GitHub Repository](https://github.com/cdc-bot-js-npm/documentation)
 
-### Contributing
+## Contributing
 
 You want to help us with developing the package? You can contibute to the package's development. Read [Contributing](https://github.com/cdc-bot-js-npm/cdc-bot.js/blob/main/.github/CONTRIBUTING.md) for more information.
 

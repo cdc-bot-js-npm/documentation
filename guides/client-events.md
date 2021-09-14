@@ -60,7 +60,7 @@ To enable an event add it to the events option inside your client setup like in 
 ```javascript
 const cdc = require('cdc-bot.js')
 
-const client = new cdc.Bot({
+const client = new cdc.Client({
     token: "TOKEN_HERE",
     prefix: "PREFIX_HERE",
     events: {
@@ -82,7 +82,7 @@ In most cases this isn't needed if default option is set to `false`. In that cas
 ```javascript
 const cdc = require('cdc-bot.js')
 
-const client = new cdc.Bot({
+const client = new cdc.Client({
     token: "TOKEN_HERE",
     prefix: "PREFIX_HERE",
     events: {
