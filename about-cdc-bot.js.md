@@ -11,17 +11,17 @@ description: >-
 
 ## Table Of Contents
 
-* About cdc-bot.js
-* How to install
-* Examples
-  * Setup your Bot
-  * Bot Presence
-  * Bot Variables
-  * Client Events
-* More features 
-  * Discord Interactions & Slash Commands
-* Links
-* Contributing
+* [About cdc-bot.js](about-cdc-bot.js.md#about-our-package)
+* [How to install](about-cdc-bot.js.md#installation)
+* [Examples](about-cdc-bot.js.md#examples)
+  * [Setup your Bot](about-cdc-bot.js.md#bot-setup)
+  * [Bot Presence](about-cdc-bot.js.md#bot-presence)
+  * [Bot Variables](about-cdc-bot.js.md#bot-variables)
+  * [Client Events](about-cdc-bot.js.md#discord-api-events)
+* [More features ](about-cdc-bot.js.md#more-features)
+  * [Discord Interactions & Slash Commands](about-cdc-bot.js.md#discord-interactions-and-application-commands)
+* [Links](about-cdc-bot.js.md#links)
+* [Contributing](about-cdc-bot.js.md#contributing)
 
 ## About our package
 
