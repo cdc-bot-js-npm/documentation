@@ -46,7 +46,7 @@ npm install cdc-bot.js
 ```javascript
 const cdc = require('cdc-bot.js')
 
-const client = new cdc.Bot({
+const client = new cdc.Client({
     token: "TOKEN HERE", // paste your secret bot user's Discord Token
     prefix: "!", // prefix or array ( prefix: ['!', '?', 'xyz', '...'] ) of prefixes, optional, default is "!"
     executeCmdOnUpdate: true, // Whether to run commands with updated messages if they're a command trigger, optional, default false
