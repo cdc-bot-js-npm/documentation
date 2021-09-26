@@ -37,11 +37,11 @@ If you do not enable a certain event, you will not receive any of the Discord ga
 | `onInteractionCreate` | false | - | \`\`[`interactionCreateCommand`](../command-types/interactioncreatecommand.md)\`\` |
 | `onInviteCreate` | false | - | \`\`[`inviteCreateCommand`](../command-types/invitecreatecommand.md)\`\` |
 | `onInviteDelete` | false | - | \`\`[`inviteDeleteCommand`](../command-types/invitedeletecommand.md)\`\` |
-| `onMessageDelete` | false |  | \`\`[`messageDeleteCommand`](../command-types/messagedeletecommand.md)\`\` |
-| `onMessageDeleteBulk` | false |  | \`\`[`messageDeleteBulkCommand`](../command-types/messagedeletebulkcommand.md)\`\` |
-| `onMessageReactionAdd` | false |  | \`\`[`messageReactionAddCommand`](../command-types/messagereactionaddcommand.md)\`\` |
-| `onMessageReactionRemove` | false |  | \`\`[`messageReactionRemoveCommand`](../command-types/messagereactionremovecommand.md)\`\` |
-| `onMessageUpdate` | false |  | \`\`[`messageUpdateCommand`](../command-types/messageupdatecommand.md)\`\` |
+| `onMessageDelete` | false | - | \`\`[`messageDeleteCommand`](../command-types/messagedeletecommand.md)\`\` |
+| `onMessageDeleteBulk` | false | - | \`\`[`messageDeleteBulkCommand`](../command-types/messagedeletebulkcommand.md)\`\` |
+| `onMessageReactionAdd` | false | - | \`\`[`messageReactionAddCommand`](../command-types/messagereactionaddcommand.md)\`\` |
+| `onMessageReactionRemove` | false | - | \`\`[`messageReactionRemoveCommand`](../command-types/messagereactionremovecommand.md)\`\` |
+| `onMessageUpdate` | false | - | \`\`[`messageUpdateCommand`](../command-types/messageupdatecommand.md)\`\` |
 | `onPresenceUpdate` | false | - | \`\`[`presenceUpdateCommand`](../command-types/presenceupdatecommand.md)\`\` |
 | `onRateLimit` | false | - | \`\`[`rateLimitCommand`](../command-types/ratelimitcommand.md)\`\` |
 | `onRoleCreate` | false | - | \`\`[`roleCreateCommand`](../command-types/rolecreatecommand.md)\`\` |
@@ -50,7 +50,7 @@ If you do not enable a certain event, you will not receive any of the Discord ga
 | `onTypingStart` | false | - | \`\`[`typingStartCommand`](../command-types/typingstartcommand.md)\`\` |
 | `onUserUpdate` | false | - | \`\`[`userUpdateCommand`](../command-types/userupdatecommand.md)\`\` |
 | `onVoiceStateUpdate` | false | - | \`\`[`voiceStateUpdateCommand`](../command-types/voicestateupdatecommand.md)\`\` |
-| `onWebhookUpdate` | false | Discord doen't provide data about the updated webhook, just about the channel it belongs to. | \`\`[`webhookUpdateCommand`](../command-types/webhookupdatecommand.md)\`\` |
+| `onWebhookUpdate` | false | Discord doesn't provide data about the updated webhook, just about the channel it belongs to. | \`\`[`webhookUpdateCommand`](../command-types/webhookupdatecommand.md)\`\` |
 
 ## Enable an event
 
@@ -63,12 +63,12 @@ const cdc = require('cdc-bot.js')
 const client = new cdc.Client({
     token: "TOKEN_HERE",
     prefix: "PREFIX_HERE",
-    events: {
+    events: [{
     onChannelCreate: true,
     onChannelDelete: true,
     onChannelUpdate: true,
     // and so on...
-    }
+    }]
 })
 ```
 {% endcode %}
@@ -85,10 +85,10 @@ const cdc = require('cdc-bot.js')
 const client = new cdc.Client({
     token: "TOKEN_HERE",
     prefix: "PREFIX_HERE",
-    events: {
+    events: [{
     onChannelCreate: false,
     onChannelDelete: false
-    }
+    }]
 })
 ```
 {% endcode %}

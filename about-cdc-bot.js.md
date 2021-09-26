@@ -27,7 +27,7 @@ description: >-
 
 cdc-bot.js is an easy to learn package that makes it possible for you to code your own advanced Discord bots fast and uncomplicated.
 
-We use functions that make all imaginable uses for your Discord\* bots possible. &lt;/br&gt;
+We use functions that make all imaginable uses for your Discord\* bots possible.
 
 The package is open source that allows anyone to contribute to the package development. Together we can! 
 
@@ -87,7 +87,7 @@ In our package we use variables to store data in the bot's database. The data is
 **Setup the variable keys:**
 
 ```javascript
-bot.variables({
+client.variables({
   VariableName1: "true", //This is the default value that can be changed via functions for each user/channel/server/message differently.
   VariableName2: "false" //Second variable's default value is "false".
 })
@@ -99,16 +99,18 @@ bot.variables({
 
 It's simple and easy process, it essentially allows you to trigger commands on special events of the Discord API, such as user joining a Guild. This will trigger an event, causing commands with supported type for each event to be executed then.
 
+For more information, check out our [Client Events](guides/client-events.md) page.
+
 **The available events our package covers:**
 
 ```text
-onChannelCreate, onChannelDelete, onChannelPinsUpdate, onChannelUpdate, onEmojiCreate, onEmojiUpdate, onEmojiDelete, onGuildBanAdd, onGuildBanRemove, onGuildCreate, onGuildDelete, onGuildMemberAdd, onGuildMemberRemove, onGuildMemberUpdate, onGuildUnavailable, onGuildUpdate, onInviteCreate, onInviteDelete, onInteractionCreate, onMessageCreate, onMessageDelete, onMessageDeleteBulk, onMessageUpdate, onMessageReactionAdd, onMessageReactionRemove, onMessageReactionRemoveAll, onMessageReactionRemoveEmoji, onPresenceUpdate, onRateLimit, onRoleCreate, onRoleDelete, onRoleUpdate, onTypingStart, onUserUpdate, onVoiceStateUpdate, onWebhookUpdate
+onChannelCreate, onChannelDelete, onChannelPinsUpdate, onChannelUpdate, onEmojiCreate, onEmojiUpdate, onEmojiDelete, onGuildBanAdd, onGuildBanRemove, onGuildCreate, onGuildDelete, onGuildMemberAdd, onGuildMemberRemove, onGuildMemberUpdate, onGuildUpdate, onInviteCreate, onInviteDelete, onInteractionCreate, onMessageCreate, onMessageDelete, onMessageDeleteBulk, onMessageUpdate, onMessageReactionAdd, onMessageReactionRemove, onPresenceUpdate, onRateLimit, onRoleCreate, onRoleDelete, onRoleUpdate, onTypingStart, onUserUpdate, onVoiceStateUpdate, onWebhookUpdate
 ```
 
 **Example Event-Command:**
 
 ```javascript
-bot.guildMemberCreateCommand({
+client.guildMemberCreateCommand({
         channel: "Channel ID", //Enter the welcome-channel-ID
         code: `<@$user> welcome to our server!` //Type in whatever message you would like to be send.
 })
@@ -153,7 +155,7 @@ More Information in our [documentation](https://cdc-bot.dutchman-dev.com/guide/a
 
 ## Links
 
-cdc-bot.js was made by [The Dutchman\#0001](https://discordapp.com/users/704677071929999390).
+cdc-bot.js was made by[ Dutchman\#0001](https://discordapp.com/users/704677071929999390) and his community.
 
 * [Website](https://cdc-bot.dutchman-dev.com)
 * [Documentation](https://cdc-bot.dutchman-dev.com)

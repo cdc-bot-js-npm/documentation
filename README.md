@@ -1,5 +1,5 @@
 ---
-description: Welcome to the official documentation website of cdc-bot.js!
+description: Welcome to the official documentation website of the cdc-bot.js npm pCKAGE!
 ---
 
 # Welcome!

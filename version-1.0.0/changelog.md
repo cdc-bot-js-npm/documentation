@@ -6,6 +6,8 @@ description: All package updates are listed below.
 
 ## Version 1.0.0
 
+Published: 17.10.2021
+
 ### Added functions
 
 * $message
@@ -45,4 +47,5 @@ description: All package updates are listed below.
 * onGuildMemberRemove 
 * onPresenceUpdate
 * onUserUpdate
+* onWebhookUpdate
 
