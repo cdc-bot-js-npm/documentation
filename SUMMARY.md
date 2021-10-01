@@ -55,8 +55,8 @@
 ## Functions
 
 * [Client Functions](functions/client-functions.md)
-* [Command Functions](functions/command-functions/README.md)
-  * [$updateHandlers](functions/command-functions/usdupdatehandlers.md)
+* [Code Functions](functions/code-functions/README.md)
+  * [$updateHandlers](functions/code-functions/usdupdatehandlers.md)
 * [Guild Functions](functions/guild-functions/README.md)
   * [$channel](functions/guild-functions/channel.md)
   * [$editChannel](functions/guild-functions/usdeditchannel.md)

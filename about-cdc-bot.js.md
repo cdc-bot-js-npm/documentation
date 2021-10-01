@@ -33,11 +33,15 @@ The package is open source that allows anyone to contribute to the package devel
 
 ## Installation
 
+{% hint style="warning" %}
 **Node.JS version 12.0.0 or higher is required!**
+{% endhint %}
 
+{% code title="TERMINAL" %}
 ```text
 npm install cdc-bot.js
 ```
+{% endcode %}
 
 ## Examples
 

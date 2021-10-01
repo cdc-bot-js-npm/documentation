@@ -103,9 +103,9 @@ Of course you can! Just create folders inside the commands folder
 
 ### Updating the commands
 
-Head over to the [$updateHandlers](../functions/command-functions/usdupdatehandlers.md) page.
+Head over to the [$updateHandlers](../functions/code-functions/usdupdatehandlers.md) page.
 
-{% page-ref page="../functions/command-functions/usdupdatehandlers.md" %}
+{% page-ref page="../functions/code-functions/usdupdatehandlers.md" %}
 
 
 
