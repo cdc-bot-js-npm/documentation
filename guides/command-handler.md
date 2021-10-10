@@ -108,7 +108,9 @@ Head over to the [$updateHandlers](../functions/code-functions/usdupdatehandlers
 [usdupdatehandlers.md](../functions/code-functions/usdupdatehandlers.md)
 {% endcontent-ref %}
 
-### Extras
+## Extras
+
+### Default command type
 
 Did you know that you can change the default command type of your command handler's files? If no code property was set in a command handler file the client will automatically count it as the given default command type. Default option is set to `prefixedCommand`. Add the following to your command handler setup line and replace the `prefixedCommand` with your default command type:
 
@@ -116,5 +118,8 @@ Did you know that you can change the default command type of your command handle
 client.commandHandler('./commands', 'prefixedCommand')
 ```
 
+This options are optional.
 
+### Disable logging command handler
 
+Y
