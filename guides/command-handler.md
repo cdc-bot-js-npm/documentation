@@ -123,3 +123,8 @@ This options are optional.
 ### Disable logging command handler
 
 You don't want the command updates be logged in your console?
+
+Then add the following into the command handler setup line:
+
+
+
