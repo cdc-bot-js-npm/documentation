@@ -17,15 +17,17 @@ Simple! Just add a folder called `commands` in your main branch of your files.
 
 Then add the following code into your main file below the client setup:
 
+```javascript
+client.commandHandler(path, defaultCommandType, log))
+```
+
+### Op
+
 ```
 client.commandHandler('./commands', 'prefixedCommand')
 ```
 
 #### Example:
-
-```javascript
-client.commandHandler('./commands')
-```
 
 {% hint style="warning" %}
 This must be **below** the client setup!
