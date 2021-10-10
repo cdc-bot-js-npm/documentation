@@ -122,4 +122,4 @@ This options are optional.
 
 ### Disable logging command handler
 
-Y
+You don't want the command updates be logged in your console?
