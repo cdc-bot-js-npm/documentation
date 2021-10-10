@@ -24,14 +24,14 @@ client.commandHandler(path, defaultCommandType, log))
 ### Options
 
 * `path` => The file path the command files are in
-* `defaultCommandType` => a string for the default command type (e.g. `'prefixedCommand'`) (this option is optional)
-* `log` => Whether to log the status of the command handler update (boolean, true/false, this option is optional)
-
-```
-client.commandHandler('./commands', 'prefixedCommand')
-```
+* `defaultCommandType` => a string for the default command type (e.g. `'prefixedCommand'`) (this option is optional, defaults to `prefixedCommand`.)
+* `log` => Whether to log the status of the command handler update (boolean, type `true` or `false`, this option is optional, defaults to true.)
 
 #### Example:
+
+```
+client.commandHandler('./commands', 'prefixedCommand', true)
+```
 
 {% hint style="warning" %}
 This must be **below** the client setup!
