@@ -15,7 +15,7 @@ Simple! Just add a folder called `commands` in your main branch of your files.
 
 ## Edit the main file
 
-Add the following code into your main file below the client setup:
+Add the following code into your main file below your client setup:
 
 ```javascript
 client.commandHandler(path, defaultCommandType, log))
@@ -24,8 +24,8 @@ client.commandHandler(path, defaultCommandType, log))
 ### Options
 
 * `path` => The file path the command files are in
-* `defaultCommandType` => a string for the default command type (e.g. `'prefixedCommand'`) (optional)
-* `log` => Whether to log the status of the command handler update (boolean, true/false)
+* `defaultCommandType` => a string for the default command type (e.g. `'prefixedCommand'`) (this option is optional)
+* `log` => Whether to log the status of the command handler update (boolean, true/false, this option is optional)
 
 ```
 client.commandHandler('./commands', 'prefixedCommand')
