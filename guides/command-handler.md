@@ -21,7 +21,9 @@ Then add the following code into your main file below the client setup:
 client.commandHandler(path, defaultCommandType, log))
 ```
 
-### Op
+### Options
+
+* `path` => The file path the 
 
 ```
 client.commandHandler('./commands', 'prefixedCommand')
