@@ -1,7 +1,6 @@
 ---
 description: How to use the build-in command handler? Here you can check it out!
 ---
-
 # Command Handler
 
 ## What is a command handler?
@@ -72,7 +71,7 @@ Hello $user[name]!
 
 ### Multiple commands in one file
 
-Add a `[` after the `module.exports =`  and a `]` at the end of the file. Seperate commands with a `,` .
+Add a `[` after the `module.exports = ` and a `]` at the end of the file. Seperate commands with a `,` .
 
 ```javascript
 module.exports = [{
@@ -105,7 +104,14 @@ Of course you can! Just create folders inside the commands folder
 
 Head over to the [$updateHandlers](../functions/code-functions/usdupdatehandlers.md) page.
 
-{% page-ref page="../functions/code-functions/usdupdatehandlers.md" %}
+{% content-ref url="../functions/code-functions/usdupdatehandlers.md" %}
+[usdupdatehandlers.md](../functions/code-functions/usdupdatehandlers.md)
+{% endcontent-ref %}
 
+### Extras
 
+Did you know 
+
+```
+```
 
