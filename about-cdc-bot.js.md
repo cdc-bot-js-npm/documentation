@@ -1,13 +1,9 @@
 ---
-description: >-
-  cdc-bot.js is an easy to learn npm package that makes it possible for you to
-  code your own advanced Discord bots fast and uncomplicated. We use functions
-  that make all imaginable uses for your bots!
+description: cdc-bot.js is an easy to learn npm package that makes it possible for you to code your own advanced Discord bots fast and uncomplicated. We use functions that make all imaginable uses for your bots!
 ---
-
 # About cdc-bot.js
 
-[![Discord](https://img.shields.io/discord/845696357406998588?color=blue&label=Discord&logo=discord&logoColor=white)](https://discord.gg/djcSRFPPaN)
+[![Discord](https://img.shields.io/discord/845696357406998588?color=blue\&label=Discord\&logo=discord\&logoColor=white)](https://discord.gg/djcSRFPPaN)
 
 ## Table Of Contents
 
@@ -38,7 +34,7 @@ The package is open source that allows anyone to contribute to the package devel
 {% endhint %}
 
 {% code title="TERMINAL" %}
-```text
+```
 npm install cdc-bot.js
 ```
 {% endcode %}
@@ -62,7 +58,7 @@ const client = new cdc.Client({
 
 ### Bot Presence
 
-This is the activity presence the bot's user profile will show in it's profile and in the members list. You can set up as many presences as you like but timeout \(until bot reloads the presence/ changes to next presence\) must be higher than 12 seconds \(Discord Rate Limit\)
+This is the activity presence the bot's user profile will show in it's profile and in the members list. You can set up as many presences as you like but timeout (until bot reloads the presence/ changes to next presence) must be higher than 12 seconds (Discord Rate Limit)
 
 **Setting up bot's presence:**
 
@@ -86,7 +82,7 @@ client.presence({
 
 **What are variables?**
 
-In our package we use variables to store data in the bot's database. The data is based on IDs \(e.g. based on a specific userID/channelID/messageID/guildID\). These variables are Key-Value based. This can be used as example to store channelIDs that are depending on the server the command was used in. It's also usable to store a user's economy balance based on the userID.
+In our package we use variables to store data in the bot's database. The data is based on IDs (e.g. based on a specific userID/channelID/messageID/guildID). These variables are Key-Value based. This can be used as example to store channelIDs that are depending on the server the command was used in. It's also usable to store a user's economy balance based on the userID.
 
 **Setup the variable keys:**
 
@@ -107,7 +103,7 @@ For more information, check out our [Client Events](guides/client-events.md) pag
 
 **The available events our package covers:**
 
-```text
+```
 onChannelCreate, onChannelDelete, onChannelPinsUpdate, onChannelUpdate, onEmojiCreate, onEmojiUpdate, onEmojiDelete, onGuildBanAdd, onGuildBanRemove, onGuildCreate, onGuildDelete, onGuildMemberAdd, onGuildMemberRemove, onGuildMemberUpdate, onGuildUpdate, onInviteCreate, onInviteDelete, onInteractionCreate, onMessageCreate, onMessageDelete, onMessageDeleteBulk, onMessageUpdate, onMessageReactionAdd, onMessageReactionRemove, onPresenceUpdate, onRateLimit, onRoleCreate, onRoleDelete, onRoleUpdate, onTypingStart, onUserUpdate, onVoiceStateUpdate, onWebhookUpdate
 ```
 
@@ -124,7 +120,7 @@ client.guildMemberCreateCommand({
 
 #### Discord Interactions & Application Commands:
 
-With easy and simple functions, you can make Slash Commands \(application command type 1\) and Message Context Commands \(application command types 2 & 3\) and let your bot respond to the interactions quick!
+With easy and simple functions, you can make Slash Commands (application command type 1) and Message Context Commands (application command types 2 & 3) and let your bot respond to the interactions quick!
 
 ```javascript
 // Example of creating a slash command
@@ -159,12 +155,13 @@ More Information in our [documentation](https://cdc-bot.dutchman-dev.com/guide/a
 
 ## Links
 
-cdc-bot.js was made by[ Dutchman\#0001](https://discordapp.com/users/704677071929999390) and his community.
+cdc-bot.js was made by[ Dutchman#0001](https://discordapp.com/users/704677071929999390) and his community.
 
 * [Website](https://cdc-bot.dutchman-dev.com)
 * [Documentation](https://cdc-bot.dutchman-dev.com)
 * [Discord Server](https://discord.gg/HmtpbraCnk)
 * [GitHub Repository](https://github.com/cdc-bot-js-npm/cdc-bot.js)
+* [NPM Package](htts://npmjs.org/package/cdc-bot.js)
 * [Documentation GitHub Repository](https://github.com/cdc-bot-js-npm/documentation)
 
 ## Contributing
@@ -174,4 +171,3 @@ You want to help us with developing the package? You can contibute to the packag
 
 
 `*`We're not affiliated with Discord.
-
