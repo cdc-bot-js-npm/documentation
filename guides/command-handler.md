@@ -17,6 +17,12 @@ Simple! Just add a folder called `commands` in your main branch of your files.
 
 Then add the following code into your main file below the client setup:
 
+```
+client.commandHandler('./commands', 'prefixedCommand')
+```
+
+#### Example:
+
 ```javascript
 client.commandHandler('./commands')
 ```
@@ -126,5 +132,7 @@ You don't want the command updates be logged in your console?
 
 Then add the following into the command handler setup line:
 
-
+```
+client.commandHandler('./commands', 'prefixedCommand', false)
+```
 
