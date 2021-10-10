@@ -110,9 +110,11 @@ Head over to the [$updateHandlers](../functions/code-functions/usdupdatehandlers
 
 ### Extras
 
-Did you know that you can change the default command type of your command handler's files? If no code property was set in a command handler file the client will automatically count it as the given default command type. Default option is set to `prefixedCommand`. Add the following to your command handler setup line:
+Did you know that you can change the default command type of your command handler's files? If no code property was set in a command handler file the client will automatically count it as the given default command type. Default option is set to `prefixedCommand`. Add the following to your command handler setup line and replace the `prefixedCommand` with your default command type:
 
 ```
-client.commandHandler('./commands', )
+client.commandHandler('./commands', 'prefixedCommand')
 ```
+
+
 
