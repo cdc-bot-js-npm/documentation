@@ -27,17 +27,15 @@ client.commandHandler(path, defaultCommandType, log))
 * `defaultCommandType` => a string for the default command type (e.g. `'prefixedCommand'`) (this option is optional, defaults to `prefixedCommand`.)
 * `log` => Whether to log the status of the command handler update (boolean, type `true` or `false`, this option is optional, defaults to true.)
 
-#### Example:
-
-```
-client.commandHandler('./commands', 'prefixedCommand', true)
-```
-
 {% hint style="warning" %}
 This must be **below** the client setup!
 {% endhint %}
 
-Example:
+### Example:
+
+```
+client.commandHandler('./commands', 'prefixedCommand', true)
+```
 
 {% code title="index.js" %}
 ```javascript
@@ -136,7 +134,7 @@ This options are optional.
 
 You don't want the command updates be logged in your console?
 
-Then add the following into the command handler setup line:
+Then add false in the third field of the command handler setup line:
 
 ```
 client.commandHandler('./commands', 'prefixedCommand', false)
