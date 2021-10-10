@@ -13,9 +13,9 @@ Simple! Just add a folder called `commands` in your main branch of your files.
 
 ![Example look of the commands folder](../.gitbook/assets/command-handler-folder.png)
 
-### Edit the main file
+## Edit the main file
 
-Then add the following code into your main file below the client setup:
+Add the following code into your main file below the client setup:
 
 ```javascript
 client.commandHandler(path, defaultCommandType, log))
@@ -24,8 +24,8 @@ client.commandHandler(path, defaultCommandType, log))
 ### Options
 
 * `path` => The file path the command files are in
-* `defaultCommandType` => the default command type (e.g. `'prefixedCommand'`) (optional)
-* `log` => Whether to log 
+* `defaultCommandType` => a string for the default command type (e.g. `'prefixedCommand'`) (optional)
+* `log` => Whether to log the status of the command handler update (boolean, true/false)
 
 ```
 client.commandHandler('./commands', 'prefixedCommand')
