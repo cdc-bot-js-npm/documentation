@@ -23,7 +23,8 @@ client.commandHandler(path, defaultCommandType, log))
 
 ### Options
 
-* `path` => The file path the 
+* `path` => The file path the command files are in
+* `defaultCommandType` => the default command type (e.g. `'prefixedCommand'`) (op
 
 ```
 client.commandHandler('./commands', 'prefixedCommand')
