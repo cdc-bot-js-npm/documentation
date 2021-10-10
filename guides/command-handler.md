@@ -110,7 +110,7 @@ Head over to the [$updateHandlers](../functions/code-functions/usdupdatehandlers
 
 ### Extras
 
-Did you know 
+Did you know that you can change the default command type of your command handler's files? If no code property was set in a command handler file the client will automatically count it as the given default command type.
 
 ```
 ```
