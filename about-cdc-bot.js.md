@@ -1,6 +1,10 @@
 ---
-description: cdc-bot.js is an easy to learn npm package that makes it possible for you to code your own advanced Discord bots fast and uncomplicated. We use functions that make all imaginable uses for your bots!
+description: >-
+  cdc-bot.js is an easy to learn npm package that makes it possible for you to
+  code your own advanced Discord bots fast and uncomplicated. We use functions
+  that make all imaginable uses for your bots!
 ---
+
 # About cdc-bot.js
 
 [![Discord](https://img.shields.io/discord/845696357406998588?color=blue\&label=Discord\&logo=discord\&logoColor=white)](https://discord.gg/djcSRFPPaN)
@@ -161,7 +165,7 @@ cdc-bot.js was made by[ Dutchman#0001](https://discordapp.com/users/704677071929
 * [Documentation](https://cdc-bot.dutchman-dev.com)
 * [Discord Server](https://discord.gg/HmtpbraCnk)
 * [GitHub Repository](https://github.com/cdc-bot-js-npm/cdc-bot.js)
-* [NPM Package](htts://npmjs.org/package/cdc-bot.js)
+* NPM Package
 * [Documentation GitHub Repository](https://github.com/cdc-bot-js-npm/documentation)
 
 ## Contributing
