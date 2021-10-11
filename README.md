@@ -1,5 +1,5 @@
 ---
-description: Welcome to the official documentation website of the cdc-bot.js npm pCKAGE!
+description: Welcome to the official documentation website of the cdc-bot.js npm package!
 cover: .gitbook/assets/banner_cdc2.png
 coverY: 0
 ---
